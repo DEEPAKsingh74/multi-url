@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function () { const paypalBtn = document.getElementById('paypal-donation'); paypalBtn.addEventListener('click', () => { chrome.tabs.create({ url: 'https://paypal.me/DeepakSinghIN74?country.x=IN&locale.x=en_GB' }); }); });
